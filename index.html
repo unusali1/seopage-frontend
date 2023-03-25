@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="https://kit.fontawesome.com/859a85afd4.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+    <div class="home-container scroll">
+        <div class="card-nav" style="background-color: rgb(223, 223, 240); ">
+            <div class="d-flex">
+                <span style="padding: 15px; height: 30px; margin-top: 18px; border: 2px solid red; border-radius: 150px 0px 0px 150px; background-color: red;"></span>
+                <h2 style="padding: 5px; margin-top: 8px;">Incomplete</h2>
+                <p
+                    style="margin-left: 230px; margin-top: 18px;padding: 10px; border-radius: 5px; background-color: rgb(230, 226, 220);">
+                    0</p>
+            </div>
+            <div class="overflow">
+               
+                <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                    <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                         <img src="./assets/sadik.PNG" alt="client Name"
+                             style="width: 24px; height: 25px; margin-left: 170px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                         <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                         <div class="d-flex"
+                             style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                             <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                             <p>1/2</p>
+                         </div>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                         <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                         <p
+                             style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                             12+</p>
+                         <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                         <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                             style="margin-top: 10px; margin-left: 15px;"></i>
+                         <div class="modal" tabindex="-1" id="myModal">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title">Select Your File</h5>
+     
+                                     </div>
+                                     <div class="modal-footer">
+                                         <form action="submit" method="POST" id="myForm">
+                                             <input type="file" name="file[]" id="file" class="file-field" required />
+                                             <label for="file" class="file-label">
+                                                 CHOOSE FILE
+                                             </label>
+                                             <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                             <button id="close" style="margin-top: 20px;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                         </form>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div style="margin-left: 8px;margin-top: 5px;" class="files">
+                         </div>
+                         <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                     </div>
+                 </div>
+                 <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                    <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                         <img src="./assets/sadik.PNG" alt="client Name"
+                             style="width: 24px; height: 25px; margin-left: 170px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                         <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                         <div class="d-flex"
+                             style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                             <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                             <p>1/2</p>
+                         </div>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                         <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                         <p
+                             style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                             12+</p>
+                         <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                         <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                             style="margin-top: 10px; margin-left: 15px;"></i>
+                         <div class="modal" tabindex="-1" id="myModal">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title">Select Your File</h5>
+     
+                                     </div>
+                                     <div class="modal-footer">
+                                         <form action="submit" method="POST" id="myForm">
+                                             <input type="file" name="file[]" id="file" class="file-field" required />
+                                             <label for="file" class="file-label">
+                                                 CHOOSE FILE
+                                             </label>
+                                             <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                         </form>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                         </div>
+                         <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                     </div>
+                 </div>
+                 <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                    <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                         <img src="./assets/sadik.PNG" alt="client Name"
+                             style="width: 24px; height: 25px; margin-left: 170px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                         <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                         <div class="d-flex"
+                             style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                             <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                             <p>1/2</p>
+                         </div>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                         <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                         <p
+                             style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                             12+</p>
+                         <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                         <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                             style="margin-top: 10px; margin-left: 15px;"></i>
+                         <div class="modal" tabindex="-1" id="myModal">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title">Select Your File</h5>
+     
+                                     </div>
+                                     <div class="modal-footer">
+                                         <form action="submit" method="POST" id="myForm">
+                                             <input type="file" name="file[]" id="file" class="file-field" required />
+                                             <label for="file" class="file-label">
+                                                 CHOOSE FILE
+                                             </label>
+                                             <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                         </form>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                         </div>
+                         <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                     </div>
+                 </div>
+                 <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                    <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                         <img src="./assets/sadik.PNG" alt="client Name"
+                             style="width: 24px; height: 25px; margin-left: 170px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                         <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                         <div class="d-flex"
+                             style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                             <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                             <p>1/2</p>
+                         </div>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                         <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                         <p
+                             style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                             12+</p>
+                         <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                         <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                             style="margin-top: 10px; margin-left: 15px;"></i>
+                         <div class="modal" tabindex="-1" id="myModal">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title">Select Your File</h5>
+     
+                                     </div>
+                                     <div class="modal-footer">
+                                         <form action="submit" method="POST" id="myForm">
+                                             <input type="file" name="file[]" id="file" class="file-field" required />
+                                             <label for="file" class="file-label">
+                                                 CHOOSE FILE
+                                             </label>
+                                             <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                         </form>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                         </div>
+                         <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                     </div>
+                 </div>
+                 <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                    <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                         <img src="./assets/sadik.PNG" alt="client Name"
+                             style="width: 24px; height: 25px; margin-left: 170px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                         <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                         <div class="d-flex"
+                             style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                             <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                             <p>1/2</p>
+                         </div>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                         <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                         <p
+                             style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                             12+</p>
+                         <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                         <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                             style="margin-top: 10px; margin-left: 15px;"></i>
+                         <div class="modal" tabindex="-1" id="myModal">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title">Select Your File</h5>
+     
+                                     </div>
+                                     <div class="modal-footer">
+                                         <form action="submit" method="POST" id="myForm">
+                                             <input type="file" name="file[]" id="file" class="file-field" required />
+                                             <label for="file" class="file-label">
+                                                 CHOOSE FILE
+                                             </label>
+                                             <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                         </form>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                         </div>
+                         <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                     </div>
+                 </div>
+                 <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                    <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                         <img src="./assets/sadik.PNG" alt="client Name"
+                             style="width: 24px; height: 25px; margin-left: 170px;" />
+                         <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                         <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                         <div class="d-flex"
+                             style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                             <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                             <p>1/2</p>
+                         </div>
+                     </div>
+                     <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                         <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                         <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                         <p
+                             style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                             12+</p>
+                         <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                         <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                             style="margin-top: 10px; margin-left: 15px;"></i>
+                         <div class="modal" tabindex="-1" id="myModal">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title">Select Your File</h5>
+     
+                                     </div>
+                                     <div class="modal-footer">
+                                         <form action="submit" method="POST" id="myForm">
+                                             <input type="file" name="file[]" id="file" class="file-field" required />
+                                             <label for="file" class="file-label">
+                                                 CHOOSE FILE
+                                             </label>
+                                             <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                         </form>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                         </div>
+                         <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                         <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                     </div>
+                 </div>
+    </div>
+    </div>
+    <div class="card-nav" style="background-color: rgb(223, 223, 240); ">
+        <div class="d-flex">
+            <span style="padding: 15px; height: 30px; margin-top: 18px; border: 2px solid rgb(41, 29, 212); border-radius: 150px 0px 0px 150px; background-color: rgb(26, 39, 219);"></span>
+            <h2 style="padding: 5px; margin-top: 8px;">To Do</h2>
+            <p
+                style="margin-left: 230px; margin-top: 18px;padding: 10px; border-radius: 5px; background-color: rgb(230, 226, 220);">
+                0</p>
+        </div>
+        <div class="overflow">
+           
+            <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                     <img src="./assets/sadik.PNG" alt="client Name"
+                         style="width: 24px; height: 25px; margin-left: 170px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                     <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                     <div class="d-flex"
+                         style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                         <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                         <p>1/2</p>
+                     </div>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                     <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                     <p
+                         style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                         12+</p>
+                     <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                     <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                         style="margin-top: 10px; margin-left: 15px;"></i>
+                     <div class="modal" tabindex="-1" id="myModal">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <h5 class="modal-title">Select Your File</h5>
+ 
+                                 </div>
+                                 <div class="modal-footer">
+                                     <form action="submit" method="POST" id="myForm">
+                                         <input type="file" name="file[]" id="file" class="file-field" required />
+                                         <label for="file" class="file-label">
+                                             CHOOSE FILE
+                                         </label>
+                                         <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+
+                     </div>
+                     <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                 </div>
+             </div>
+             <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                     <img src="./assets/sadik.PNG" alt="client Name"
+                         style="width: 24px; height: 25px; margin-left: 170px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                     <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                     <div class="d-flex"
+                         style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                         <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                         <p>1/2</p>
+                     </div>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                     <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                     <p
+                         style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                         12+</p>
+                     <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                     <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                         style="margin-top: 10px; margin-left: 15px;"></i>
+                     <div class="modal" tabindex="-1" id="myModal">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <h5 class="modal-title">Select Your File</h5>
+ 
+                                 </div>
+                                 <div class="modal-footer">
+                                     <form action="submit" method="POST" id="myForm">
+                                         <input type="file" name="file[]" id="file" class="file-field" required />
+                                         <label for="file" class="file-label">
+                                             CHOOSE FILE
+                                         </label>
+                                         <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                     </div>
+                     <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                 </div>
+             </div>
+             <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                     <img src="./assets/sadik.PNG" alt="client Name"
+                         style="width: 24px; height: 25px; margin-left: 170px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                     <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                     <div class="d-flex"
+                         style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                         <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                         <p>1/2</p>
+                     </div>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                     <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                     <p
+                         style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                         12+</p>
+                     <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                     <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                         style="margin-top: 10px; margin-left: 15px;"></i>
+                     <div class="modal" tabindex="-1" id="myModal">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <h5 class="modal-title">Select Your File</h5>
+ 
+                                 </div>
+                                 <div class="modal-footer">
+                                     <form action="submit" method="POST" id="myForm">
+                                         <input type="file" name="file[]" id="file" class="file-field" required />
+                                         <label for="file" class="file-label">
+                                             CHOOSE FILE
+                                         </label>
+                                         <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                     </div>
+                     <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                 </div>
+             </div>
+             <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                     <img src="./assets/sadik.PNG" alt="client Name"
+                         style="width: 24px; height: 25px; margin-left: 170px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                     <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                     <div class="d-flex"
+                         style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                         <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                         <p>1/2</p>
+                     </div>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                     <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                     <p
+                         style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                         12+</p>
+                     <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                     <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                         style="margin-top: 10px; margin-left: 15px;"></i>
+                     <div class="modal" tabindex="-1" id="myModal">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <h5 class="modal-title">Select Your File</h5>
+ 
+                                 </div>
+                                 <div class="modal-footer">
+                                     <form action="submit" method="POST" id="myForm">
+                                         <input type="file" name="file[]" id="file" class="file-field" required />
+                                         <label for="file" class="file-label">
+                                             CHOOSE FILE
+                                         </label>
+                                         <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                     </div>
+                     <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                 </div>
+             </div>
+             <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                     <img src="./assets/sadik.PNG" alt="client Name"
+                         style="width: 24px; height: 25px; margin-left: 170px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                     <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                     <div class="d-flex"
+                         style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                         <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                         <p>1/2</p>
+                     </div>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                     <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                     <p
+                         style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                         12+</p>
+                     <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                     <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                         style="margin-top: 10px; margin-left: 15px;"></i>
+                     <div class="modal" tabindex="-1" id="myModal">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <h5 class="modal-title">Select Your File</h5>
+ 
+                                 </div>
+                                 <div class="modal-footer">
+                                     <form action="submit" method="POST" id="myForm">
+                                         <input type="file" name="file[]" id="file" class="file-field" required />
+                                         <label for="file" class="file-label">
+                                             CHOOSE FILE
+                                         </label>
+                                         <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                     </div>
+                     <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                 </div>
+             </div>
+             <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+                <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                     <img src="./assets/sadik.PNG" alt="client Name"
+                         style="width: 24px; height: 25px; margin-left: 170px;" />
+                     <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                     <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                     <div class="d-flex"
+                         style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                         <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                         <p>1/2</p>
+                     </div>
+                 </div>
+                 <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                     <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                     <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                     <p
+                         style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                         12+</p>
+                     <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                     <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                         style="margin-top: 10px; margin-left: 15px;"></i>
+                     <div class="modal" tabindex="-1" id="myModal">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <h5 class="modal-title">Select Your File</h5>
+ 
+                                 </div>
+                                 <div class="modal-footer">
+                                     <form action="submit" method="POST" id="myForm">
+                                         <input type="file" name="file[]" id="file" class="file-field" required />
+                                         <label for="file" class="file-label">
+                                             CHOOSE FILE
+                                         </label>
+                                         <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                     </form>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                     </div>
+                     <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                     <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+                 </div>
+             </div>
+</div>
+</div>
+<div class="card-nav" style="background-color: rgb(223, 223, 240); ">
+    <div class="d-flex">
+        <span style="padding: 15px; height: 30px; margin-top: 18px; border: 2px solid rgb(223, 236, 30); border-radius: 150px 0px 0px 150px; background-color: rgb(223, 236, 30);"></span>
+        <h2 style="padding: 5px; margin-top: 8px;">Doing</h2>
+        <p
+            style="margin-left: 230px; margin-top: 18px;padding: 10px; border-radius: 5px; background-color: rgb(230, 226, 220);">
+            0</p>
+    </div>
+    <div class="overflow">
+       
+        <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+</div>
+</div>
+<div class="card-nav" style="background-color: rgb(223, 223, 240); ">
+    <div class="d-flex">
+       
+        <h2 style="padding: 5px; margin-top: 8px;">Under  Review</h2>
+        <p
+            style="margin-left: 230px; margin-top: 18px;padding: 10px; border-radius: 5px; background-color: rgb(230, 226, 220);">
+            0</p>
+    </div>
+    <div class="overflow">
+       
+        <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+</div>
+</div>
+<div class="card-nav" style="background-color: rgb(223, 223, 240); ">
+    <div class="d-flex">
+        
+        <h2 style="padding: 5px; margin-top: 8px;">Completed</h2>
+        <p
+            style="margin-left: 230px; margin-top: 18px;padding: 10px; border-radius: 5px; background-color: rgb(230, 226, 220);">
+            0</p>
+    </div>
+    <div class="overflow">
+       
+        <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+         <div class="card" style="width: 27rem; margin-top:15px ; margin-left:15px ; margin-right:15px; border-radius: 10px;">
+            <div class=" d-flex" style="margin-top: 10px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/name.PNG" alt="client Name" style="width: 24px; height: 25px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Client Name</h6>
+                 <img src="./assets/sadik.PNG" alt="client Name"
+                     style="width: 24px; height: 25px; margin-left: 170px;" />
+                 <h6 style="margin-left: 2px; padding: 2px;">Sadik Istiak</h6>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <i class="fa-solid fa-layer-group" style="margin-left: 5px; margin-top: 6px;"></i>
+                 <p style="margin-left: 3px;padding: 2px;">Lorem ipsum dolor sit amet curn...</p>
+                 <div class="d-flex"
+                     style="background-color: rgb(223, 223, 240);; margin-left: 50px; padding: 5px; justify-content: center;height: 35px; border-radius: 5px; width: 80px;">
+                     <i class="fa-solid fa-clipboard" style="margin-top: 3px; margin-right: 2px;"></i>
+                     <p>1/2</p>
+                 </div>
+             </div>
+             <div class="d-flex" style="margin-top: 3px; margin-left: 4px; margin-right: 4px; padding: 5px;">
+                 <img src="./assets/view1.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 5px;" />
+                 <img src="./assets/view2.PNG" alt="view" style="width: 34px; height: 35px; margin-left: 15px;" />
+                 <p
+                     style="margin-left: 15px; border-radius: 50%; background-color: rgb(223, 223, 240); padding: 5px;">
+                     12+</p>
+                 <i class="fa-regular fa-comments" style="margin-top: 10px; margin-left: 15px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">15</p>
+                 <i id="open-modal-icon" class="fa fa-paperclip" aria-hidden="true"
+                     style="margin-top: 10px; margin-left: 15px;"></i>
+                 <div class="modal" tabindex="-1" id="myModal">
+                     <div class="modal-dialog">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <h5 class="modal-title">Select Your File</h5>
+
+                             </div>
+                             <div class="modal-footer">
+                                 <form action="submit" method="POST" id="myForm">
+                                     <input type="file" name="file[]" id="file" class="file-field" required />
+                                     <label for="file" class="file-label">
+                                         CHOOSE FILE
+                                     </label>
+                                     <button style="margin-top: 20px;" class="btn btn-primary">Submit</button>
+                                 </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div style="margin-left: 8px;margin-top: 5px;" class="files">25
+                 </div>
+                 <i class="fa-regular fa-calendar-days" style="margin-top: 10px; margin-left: 18px;"></i>
+                 <p style="margin-top: 5px; margin-left: 15px;">30-12-2022</p>
+             </div>
+         </div>
+</div>
+</div>
+    
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
